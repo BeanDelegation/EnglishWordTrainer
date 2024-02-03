@@ -1,10 +1,10 @@
-package com.example.englishwordtrainer.model
+package com.example.englishwordtrainer.dto
 
 import com.example.englishwordtrainer.utils.SessionState
 
 data class TrainingSessionDto (
-
     val sessionId: String,
+    val userId: Long,
     var currentWordIndex: Int,
     var correctAnswers: Int,
     val totalQuestions: Int,

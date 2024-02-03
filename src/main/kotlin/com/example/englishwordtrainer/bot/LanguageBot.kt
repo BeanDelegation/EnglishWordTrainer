@@ -13,7 +13,7 @@ import java.util.function.BiConsumer
 import java.util.function.Predicate
 
 @Component
-class PizzaBot(
+class LanguageBot(
     environment: Environment,
     @Autowired chatService: ChatService,
 ) : AbilityBot(environment.getProperty("BOT_TOKEN"), "learnEnglishBot") {

@@ -1,7 +1,6 @@
-package com.example.englishwordtrainer.bot
+package com.example.englishwordtrainer.utils
 
 enum class UserState {
-
     AWAITING_NAME,
     MAIN_MENU,
     LANGUAGE_SELECTION,

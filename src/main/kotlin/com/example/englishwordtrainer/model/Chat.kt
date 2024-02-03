@@ -1,3 +1,15 @@
 package com.example.englishwordtrainer.model
 
-data class Chat()
+import com.example.englishwordtrainer.utils.UserState
+
+data class Chat(
+
+    val chatId: Long,
+
+    var userState: UserState,
+
+    var trainingSession: List<TrainingSession>? = null,
+
+    val personalDictionary: String = "",
+
+    )
